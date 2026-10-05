@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Respaldos Sistemas</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6; background: #f6f7f9; color: #1d2330; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 1.8rem; margin: 0 0 8px; }
+  p.sub { margin: 0 0 32px; color: #586174; }
+  a { color: #0b5cad; }
+  footer { margin-top: 40px; font-size: .9rem; color: #586174; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14171d; color: #e6e8ec; }
+    p.sub, footer { color: #a3abba; }
+    a { color: #7fb4ee; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Respaldos Sistemas</h1>
+  <p class="sub">Herramienta de uso personal, no es un servicio público.</p>
+
+  <p>Esta aplicación la usa únicamente su propietario para guardar copias de respaldo
+  <strong>cifradas</strong> en su propio Google Drive. Funciona con
+  <a href="https://rclone.org/">rclone</a>, un programa de código abierto.</p>
+
+  <p>Solo tiene acceso a los archivos que ella misma crea (permiso <code>drive.file</code>):
+  no puede ver ni modificar ningún otro archivo del Drive. Los respaldos se cifran antes de
+  salir del equipo de origen, así que Google solo almacena contenido ilegible.</p>
+
+  <p>No se ofrece a otras personas y no recopila datos de ningún usuario.</p>
+
+  <footer><a href="privacidad.html">Política de privacidad</a></footer>
+</main>
+</body>
+</html>
